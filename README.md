@@ -5,7 +5,13 @@ Steps to recreate:
 
 1. fork the repository <username.github.io>
 2. clone to a local copy 
-3. make sure you have node installed
+3. make sure you have node and npm installed, check
+  a. node -v 
+  b. npm -v
+  you might have to restart vs code to update the command libraries.
+  c. npm install
+  d. npm ci
+  e. npm run dev to see if it works
 4. cd <repo-folder> and do 'git remote rm origin' to break link from the remote (at this point you can delete the username.github.io repository from github as we will work with the local file now)
 5. delete node_modules and package-lock.json (this is important as the dependencies can change over time and upgraded versions will be available)
 6. 'npm install' to create new node_modules and package-lock.json
