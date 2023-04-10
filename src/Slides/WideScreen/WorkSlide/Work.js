@@ -31,7 +31,7 @@ class Work extends Component {
       {
         number: '01',
         projectName: 'Old Delhi Diorama ',
-        projectDesc: 'This involved 3D modelling the historical monnuments and the landscape of Old Delhi with all the intricate details at a 1:100 scale using the data from Archaeological Survey of India (ASI). The diorama will be installed in the Humayun &#39; s Tomb Site Museum, India. ',
+        projectDesc: 'This involved 3D modelling the historical monuments and the landscape of Old Delhi with all the intricate details at a 1:100 scale using the data from Archaeological Survey of India (ASI). The diorama will be installed in the Humayun\'s Tomb Site Museum, India. ',
         projectType: '3D Cityscape',
         roles: ['CAD', '3D Printing', 'Model Making'],
       },
@@ -45,7 +45,7 @@ class Work extends Component {
       {
         number: '03',
         projectName: 'Spherical Parallel Manipulator',
-        projectDesc: 'A 3DoF serial parallel manipulator was developed which acts as a constant-velocity joint and can be integrated into serial manipulator arms for increasing the manipulability.',
+        projectDesc: 'A 3 Degree-of-Freedom serial parallel manipulator was developed which acts as a constant-velocity joint and can be integrated into serial manipulator arms for increasing the manipulability.',
         projectType: 'Spherical Wrist',
         roles: ['Hardware Design', 'Prototyping', 'Back-end Software'],
       },
@@ -87,7 +87,7 @@ class Work extends Component {
       {
         number: '09',
         projectName: 'Team Torque: Go Kart',
-        projectDesc: 'Manufactured a go-kart with a water-cooled engine to increase efficeinty and performance. Raced in International Series of Karting, 2016 and Trinity Karting Tropy, 2016.',
+        projectDesc: 'Manufactured a go-kart with a water-cooled engine to increase efficiency and performance. Raced in International Series of Karting, 2016 and Trinity Karting Tropy, 2016.',
         projectType: 'Automotive',
         roles: ['Manufacturing', 'FEA', 'CAD'],
       },

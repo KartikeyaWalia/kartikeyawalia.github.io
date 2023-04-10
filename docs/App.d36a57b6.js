@@ -31344,7 +31344,7 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '01',
       projectName: 'Old Delhi Diorama ',
-      projectDesc: 'This involved 3D modelling the historical monnuments and the landscape of Old Delhi with all the intricate details at a 1:100 scale using the data from Archaeological Survey of India (ASI). The diorama will be installed in the Humayun &#39; s Tomb Site Museum, India. ',
+      projectDesc: 'This involved 3D modelling the historical monuments and the landscape of Old Delhi with all the intricate details at a 1:100 scale using the data from Archaeological Survey of India (ASI). The diorama will be installed in the Humayun\'s Tomb Site Museum, India. ',
       projectType: '3D Cityscape',
       roles: ['CAD', '3D Printing', 'Model Making']
     }, {
@@ -31356,7 +31356,7 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '03',
       projectName: 'Spherical Parallel Manipulator',
-      projectDesc: 'A 3DoF serial parallel manipulator was developed which acts as a constant-velocity joint and can be integrated into serial manipulator arms for increasing the manipulability.',
+      projectDesc: 'A 3 Degree-of-Freedom serial parallel manipulator was developed which acts as a constant-velocity joint and can be integrated into serial manipulator arms for increasing the manipulability.',
       projectType: 'Spherical Wrist',
       roles: ['Hardware Design', 'Prototyping', 'Back-end Software']
     }, {
@@ -31392,7 +31392,7 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '09',
       projectName: 'Team Torque: Go Kart',
-      projectDesc: 'Manufactured a go-kart with a water-cooled engine to increase efficeinty and performance. Raced in International Series of Karting, 2016 and Trinity Karting Tropy, 2016.',
+      projectDesc: 'Manufactured a go-kart with a water-cooled engine to increase efficiency and performance. Raced in International Series of Karting, 2016 and Trinity Karting Tropy, 2016.',
       projectType: 'Automotive',
       roles: ['Manufacturing', 'FEA', 'CAD']
     }, {
@@ -31895,7 +31895,8 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); } //import MobileHero from './Slides/Mobile/HeroSlide/Hero';
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); } //import WideScreenHorizontalScroll from './Slides/WideScreen/HorizontalScroll';
+//import MobileHero from './Slides/Mobile/HeroSlide/Hero';
 //import MobileWork from './Slides/Mobile/WorkSlide/Work';
 //import MobileSkills from './Slides/Mobile/Skills';
 //import MobileContact from './Slides/Mobile/ContactSlide/Contact';
@@ -31952,7 +31953,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62607" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59294" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
