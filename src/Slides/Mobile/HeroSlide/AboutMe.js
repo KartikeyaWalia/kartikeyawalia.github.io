@@ -43,8 +43,11 @@ class AboutMe extends Component {
     return (
       <Container>
         <AboutMeDescription>
-          Front-end developer who cares deeply about user experience.
-          Serious passion for UI design and new technologies.
+        Hi there! I'm a CAD designer and roboticist with a keen interest in sustainable design. 
+        I'm particularly excited about Additive Manufacturing and Generative Design, as I truly 
+        believe they have the potential to revolutionize the way we create products that are both 
+        efficient and environmentally responsible. Oh, and when I'm not geeking out over design, 
+        you can probably find me flying drones!
         </AboutMeDescription>
       </Container>
     );

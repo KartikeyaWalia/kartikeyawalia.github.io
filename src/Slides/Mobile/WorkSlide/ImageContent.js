@@ -2,17 +2,21 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import vhCheck from 'vh-check';
-import VoistrapImages from './ParallaxImages/VoistrapImages';
-import WhatsMyFoodImages from './ParallaxImages/WhatsMyFoodImages';
-import ComingOrNotImages from './ParallaxImages/ComingOrNotImages';
-import TeslaImages from './ParallaxImages/TeslaImages';
-import KosenImages from './ParallaxImages/KosenImages';
-import VoistrapWebImages from './ParallaxImages/VoistrapWebImages';
+import OldDelhiDiorama from './ParallaxImages/OldDelhiDiorama';
+import CRISP from './ParallaxImages/CRISP';
+import SPM from './ParallaxImages/SPM';
+import GD from './ParallaxImages/GD';
+import Craniofacial from './ParallaxImages/Craniofacial';
+import Maxillofacial from './ParallaxImages/Maxillofacial';
+import Prosthetic from './ParallaxImages/Prosthetic';
+import AutoDriving from './ParallaxImages/AutoDriving';
+import GoKart from './ParallaxImages/GoKart';
+import AeroDesign from './ParallaxImages/AeroDesign';
 
 const ImageContainer = styled.div`
 /* border: 0.1px dashed black; */
 width:100%;
-height:900vh;
+height:1800vh; /*this controls the total height, uff*/
 margin-bottom:30vh;
 display: flex;
 flex-flow: column nowrap;
@@ -56,7 +60,7 @@ class ImageContent extends Component {
     const sd = Math.max(body.scrollTop, documentElement.scrollTop);
     const sp = (sd / (documentElement.scrollHeight - documentElement.clientHeight) * 100);
     const minlimit = (documentElement.clientHeight * 100) / documentElement.scrollHeight;
-    const maxlimit = (documentElement.clientHeight * 1040) / documentElement.scrollHeight;
+    const maxlimit = (documentElement.clientHeight * 2040) / documentElement.scrollHeight;
     if (sp >= minlimit && sp <= maxlimit) {
       this.setState({ scrollPercent: sp });
     }
@@ -69,7 +73,7 @@ class ImageContent extends Component {
     return (
       <ImageContainer>
         <ImageBox height={boxHeight}>
-          <VoistrapImages
+          <OldDelhiDiorama
             boxHeight={boxHeight}
             index={1}
             scrollPercent={scrollPercent}
@@ -78,7 +82,7 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <WhatsMyFoodImages
+          <CRISP
             boxHeight={boxHeight}
             index={2}
             scrollPercent={scrollPercent}
@@ -87,7 +91,7 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <ComingOrNotImages
+          <SPM
             boxHeight={boxHeight}
             index={3}
             scrollPercent={scrollPercent}
@@ -96,7 +100,7 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <TeslaImages
+          <GD
             boxHeight={boxHeight}
             index={4}
             scrollPercent={scrollPercent}
@@ -105,7 +109,7 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <KosenImages
+          <Craniofacial
             boxHeight={boxHeight}
             index={5}
             scrollPercent={scrollPercent}
@@ -114,9 +118,45 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <VoistrapWebImages
+          <Maxillofacial
             boxHeight={boxHeight}
             index={6}
+            scrollPercent={scrollPercent}
+            screenHeight={screenHeight}
+            scrollHeight={scrollHeight}
+          />
+        </ImageBox>
+        <ImageBox height={boxHeight}>
+          <Prosthetic
+            boxHeight={boxHeight}
+            index={7}
+            scrollPercent={scrollPercent}
+            screenHeight={screenHeight}
+            scrollHeight={scrollHeight}
+          />
+        </ImageBox>
+        <ImageBox height={boxHeight}>
+          <AutoDriving
+            boxHeight={boxHeight}
+            index={8}
+            scrollPercent={scrollPercent}
+            screenHeight={screenHeight}
+            scrollHeight={scrollHeight}
+          />
+        </ImageBox>
+        <ImageBox height={boxHeight}>
+          <GoKart
+            boxHeight={boxHeight}
+            index={9}
+            scrollPercent={scrollPercent}
+            screenHeight={screenHeight}
+            scrollHeight={scrollHeight}
+          />
+        </ImageBox>
+        <ImageBox height={boxHeight}>
+          <AeroDesign
+            boxHeight={boxHeight}
+            index={10}
             scrollPercent={scrollPercent}
             screenHeight={screenHeight}
             scrollHeight={scrollHeight}

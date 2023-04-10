@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import device from '../../Assets/Responsive/breakpoints';
 
 const Container = styled.section`
-    height: 100vh;
+    height: 200vh;
     width:100%;
     /* border: 1px solid blue; */
     display: flex;
@@ -79,34 +79,67 @@ class Skills extends Component {
       <Container>
         <SkillsTitle>SKILLS</SkillsTitle>
         <SkillsList>
-          <div>
-            React
+        <div>
+            CAD (F360, SW and SpaceClaim)  
             <br />
-            React Native
-            <br />
-            Node.js
+            ⚫⚫⚫⚫⚫
             <br />
             <br />
-            Rapid Prototyping
+            FEA (Ansys, HyperMesh and LSDyna)
             <br />
-            Functional Programming
-            <br />
-            Interaction Development
+            ⚫⚫⚫⚫⚪
             <br />
             <br />
-            Responsive Design
+            Generative Design            
             <br />
-            Testing & Debugging
-            <br />
-            Application Architecture
+            ⚫⚫⚫⚫⚪
             <br />
             <br />
-            Figma & Sketch
+            3D Printing (FDM, SLA, SLS and MJF)
             <br />
-            Design system
+            ⚫⚫⚫⚫⚫
             <br />
-            Abstract
             <br />
+            3D Scanning
+            <br />
+            ⚫⚫⚫⚫⚪
+            <br />
+            <br />
+            Unity
+            <br />
+            ⚫⚫⚪⚪⚪
+            <br />
+            <br />
+            MATLAB and Simulink  
+            <br />
+            ⚫⚫⚫⚫⚪
+            <br />
+            <br />
+            ROS and ROS2
+            <br />
+            ⚫⚫⚫⚪⚪
+            <br />
+            <br />
+            Python            
+            <br />
+            ⚫⚫⚫⚫⚪
+            <br />
+            <br />
+            Embedded C
+            <br />
+            ⚫⚫⚫⚪⚪
+            <br />
+            <br />
+            C/C++
+            <br />
+            ⚫⚫⚫⚪⚪
+            <br />
+            <br />
+            HTML, CSS and JS
+            <br />
+            ⚫⚫⚫⚪⚪
+            <br />
+            <br />          
           </div>
         </SkillsList>
       </Container>

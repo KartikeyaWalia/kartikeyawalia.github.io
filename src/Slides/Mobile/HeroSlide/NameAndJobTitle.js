@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import Logo from './Logo';
 import device from '../../../Assets/Responsive/breakpoints';
 
 const Container = styled.section`
@@ -59,6 +60,7 @@ class NameAndJobTitle extends Component {
   render() {
     return (
       <Container>
+        <Logo />
         <Name>Kartikeya Walia</Name>
         <Title>CAD Design | 3D Printing | Robotics</Title>
       </Container>
