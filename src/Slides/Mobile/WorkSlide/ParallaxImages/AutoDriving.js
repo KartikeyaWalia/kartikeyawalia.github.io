@@ -8,12 +8,13 @@ import setup_image from '../../../../Assets/Images/AutoDriving/setup_image.png';
 
 const Concept = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.25)`,
+    transform: `translate(0px,-${(scroll) * 29}%) scale(0.25)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-10vh;
-right:-12vw; 
+bottom:-125vh;
+transform-origin: right center
+right:0vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -22,12 +23,13 @@ height: 80vh;
 
 const Experiments = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3}%) scale(0.225)`,
+    transform: `translate(0px,-${(scroll) * 16}%) scale(0.27)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-50vh;
-right:5vw; 
+bottom:-150vh;
+transform-origin: right center
+right:25vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -36,12 +38,13 @@ height: 80vh;
 
 const SeatAngle = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 8}%) scale(0.3)`,
+    transform: `translate(0px,-${(scroll) * 22}%) scale(0.3)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-10vh;
-right:25vw; 
+bottom:-110vh;
+transform-origin: right center
+right:55vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -50,12 +53,13 @@ filter: blur(1px);
 
 const SetupImage = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.35)`,
+    transform: `translate(0px,-${(scroll) * 19}%) scale(0.45)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-15vh;
-right:-2vw; 
+bottom:-125vh;
+transform-origin: right center
+right:5vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

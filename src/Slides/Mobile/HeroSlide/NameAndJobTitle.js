@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Logo from './Logo';
+
 import device from '../../../Assets/Responsive/breakpoints';
 
 const Container = styled.section`
@@ -8,30 +9,31 @@ const Container = styled.section`
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height:50vh;
+    height:40vh;
     width:100%;
     background-color: white;
-    /* border: 1px solid blue; */
+    /*border: 1px solid blue; */
 `;
 
 const Name = styled.div`
   font-family: 'CollectionFree';
   text-align:center;
   padding-right: 10px;
+  
   @media ${device.mobileS} {
-    font-size: 70px;
+    font-size: 60px;
   }
   @media ${device.mobileM} {
-    font-size: 80px;
+    font-size: 70px;
   }
   @media ${device.mobileL} {
-    font-size: 90px;
+    font-size: 80px;
   }
   @media ${device.tablet} {
-    font-size: 150px;
+    font-size: 140px;
   }
   @media ${device.laptop} {
-    font-size: 160px;
+    font-size: 150px;
   }
 `;
 

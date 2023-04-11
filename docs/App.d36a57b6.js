@@ -31860,8 +31860,8 @@ var _KW_logo = _interopRequireDefault(require("../../../Assets/Images/Logo/KW_lo
 var _templateObject, _templateObject2;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-var LogoContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 20px;\n  //left: 30px;\n  width: 30px;\n  height: 30px;\n"])));
-var LogoImage = _styledComponents.default.img(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  width: 200%;\n  height: 200%;\n"])));
+var LogoContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 20px;\n  //left: 30px;\n  width: 60px;\n  height: 60px;\n  align-items: center;\n"])));
+var LogoImage = _styledComponents.default.img(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100%;\n"])));
 var Logo = function Logo() {
   return /*#__PURE__*/_react.default.createElement(LogoContainer, null, /*#__PURE__*/_react.default.createElement(LogoImage, {
     src: _KW_logo.default,
@@ -31899,8 +31899,8 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    display: flex;\n    flex-flow: column nowrap;\n    justify-content: center;\n    align-items: center;\n    height:50vh;\n    width:100%;\n    background-color: white;\n    /* border: 1px solid blue; */\n"])));
-var Name = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'CollectionFree';\n  text-align:center;\n  padding-right: 10px;\n  @media ", " {\n    font-size: 70px;\n  }\n  @media ", " {\n    font-size: 80px;\n  }\n  @media ", " {\n    font-size: 90px;\n  }\n  @media ", " {\n    font-size: 150px;\n  }\n  @media ", " {\n    font-size: 160px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
+var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    display: flex;\n    flex-flow: column nowrap;\n    justify-content: center;\n    align-items: center;\n    height:40vh;\n    width:100%;\n    background-color: white;\n    /*border: 1px solid blue; */\n"])));
+var Name = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'CollectionFree';\n  text-align:center;\n  padding-right: 10px;\n  \n  @media ", " {\n    font-size: 60px;\n  }\n  @media ", " {\n    font-size: 70px;\n  }\n  @media ", " {\n    font-size: 80px;\n  }\n  @media ", " {\n    font-size: 140px;\n  }\n  @media ", " {\n    font-size: 150px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var Title = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  font-family: 'AvenirRoman';\n  text-align:center;\n  margin-top: 10px;\n  @media ", " {\n    font-size: 13px;\n  }\n  @media ", " {\n    font-size: 15px;\n  }\n  @media ", " {\n    font-size: 17px;\n  }\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 35px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var NameAndJobTitle = /*#__PURE__*/function (_Component) {
   _inherits(NameAndJobTitle, _Component);
@@ -31929,7 +31929,7 @@ exports.default = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _styledComponents = _interopRequireDefault(require("styled-components"));
 var _breakpoints = _interopRequireDefault(require("../../../Assets/Responsive/breakpoints"));
-var _templateObject, _templateObject2;
+var _templateObject, _templateObject2, _templateObject3;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
@@ -31947,8 +31947,9 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    height: 50vh;/* Since pageSplitTime is 1.4 */\n    width:100%;\n    /* border: 1px solid blue; */\n    display: flex;\n    flex-flow: row nowrap;\n    justify-content: center;\n    align-items: center;\n"])));
-var AboutMeDescription = _styledComponents.default.span(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'AvenirRoman';\n  font-size: 24px;\n  text-align: center;\n  @media ", " {\n    padding: 30px;\n    font-size: 20px;\n  }\n  @media ", " {\n    padding: 30px;\n    font-size: 23px;\n  }\n  @media ", " {\n    padding: 30px;\n    font-size: 24px;\n  }\n  @media ", " {\n    padding: 80px;\n    font-size: 40px;\n  }\n  @media ", " {\n    padding: 90px;\n    font-size: 45px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
+var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    height: 50vh;/* Since pageSplitTime is 1.4 */\n    width:100%;\n    /*border: 1px solid blue; */\n    display: flex;\n    flex-flow: column nowrap;\n    justify-content: normal;\n    align-items: center;\n    padding: 2em;\n"])));
+var AboutMeTitle = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'AvenirHeavy';\n  color: #000;\n  @media ", " {\n    font-size: 40px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  @media ", " {\n    font-size: 60px;\n  }\n  @media ", " {\n    font-size: 90px;\n  }\n  @media ", " {\n    font-size: 95px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
+var AboutMeDescription = _styledComponents.default.span(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  font-family: 'AvenirRoman';\n  font-size: 24px;\n  text-align: justify;\n  @media ", " {\n    padding: 30px;\n    font-size: 15px;\n  }\n  @media ", " {\n    padding: 30px;\n    font-size: 18px;\n  }\n  @media ", " {\n    padding: 30px;\n    font-size: 19px;\n  }\n  @media ", " {\n    padding: 80px;\n    font-size: 35px;\n  }\n  @media ", " {\n    padding: 90px;\n    font-size: 40px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var AboutMe = /*#__PURE__*/function (_Component) {
   _inherits(AboutMe, _Component);
   var _super = _createSuper(AboutMe);
@@ -31959,7 +31960,7 @@ var AboutMe = /*#__PURE__*/function (_Component) {
   _createClass(AboutMe, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "Hi there! I'm a CAD designer and roboticist with a keen interest in sustainable design. I'm particularly excited about Additive Manufacturing and Generative Design, as I truly believe they have the potential to revolutionize the way we create products that are both efficient and environmentally responsible. Oh, and when I'm not geeking out over design, you can probably find me flying drones!"));
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeTitle, null, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, /*#__PURE__*/_react.default.createElement("div", null, "Hi there! I'm a CAD designer and roboticist with a keen interest in sustainable design. I'm particularly excited about Additive Manufacturing and Generative Design, as I truly believe they have the potential to revolutionize the way we create products that are both efficient and environmentally responsible. Oh, and when I'm not geeking out over design, you can probably find me flying drones!")));
     }
   }]);
   return AboutMe;
@@ -32240,13 +32241,13 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-var TextContainer = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\nposition: fixed;\ntop:0;\nleft:0;\ndisplay: flex;\nflex-flow: column nowrap;\n/* border: 1px dashed black; */\nheight:100vh;\nwidth: 100%;\n"])));
+var TextContainer = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\nposition: fixed;\ntop:0;\nleft:0;\ndisplay: flex;\nflex-flow: column nowrap;\nborder: 1px dashed black; \nheight:100vh;\nwidth: 100%;\npadding-block: 40% 40%;\n"])));
 var ProjectName = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'AvenirHeavy';\n  @media ", " {\n    font-size: 40px;\n  }\n  @media ", " {\n    font-size: 45px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  @media ", " {\n    font-size: 60px;\n  }\n  @media ", " {\n    font-size: 90px;\n  }\n  /* border: 1px dashed black; */\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
-var ProjectDesc = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  padding-top:2%;\n  font-family: 'AvenirBook';\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  /* border: 1px dashed black; */\n"])), _breakpoints.default.laptopL, _breakpoints.default.desktop);
+var ProjectDesc = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  padding-top:2%;\n  font-family: 'AvenirBook';\n  text-align: justify;\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  /* border: 1px dashed black; */\n"])), _breakpoints.default.laptopL, _breakpoints.default.desktop);
 var MyRole = _styledComponents.default.div(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n  padding-top:5%;\n  font-family: 'AvenirMedium';\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  /* border: 1px dashed black; */\n"])), _breakpoints.default.laptopL, _breakpoints.default.desktop);
 var ProjectID = _styledComponents.default.div(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\n  font-family: 'AvenirHeavy';\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 58px;\n  }\n  /* border: 1px dashed black; */\n  padding: 5%;\n"])), _breakpoints.default.laptopL, _breakpoints.default.desktop);
 var ProjectType = _styledComponents.default.div(_templateObject6 || (_templateObject6 = _taggedTemplateLiteral(["\n  font-family: 'AvenirHeavy';\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 58px;\n  }\n  /* border: 1px dashed black; */\n  padding: 5%;\n"])), _breakpoints.default.laptopL, _breakpoints.default.desktop);
-var ProjectDetails = _styledComponents.default.div(_templateObject7 || (_templateObject7 = _taggedTemplateLiteral(["\ndisplay: flex;\nflex-flow: column nowrap;\n/* border: 1px dashed black; */\nwidth: 100%;\npadding: 5%;\n"])));
+var ProjectDetails = _styledComponents.default.div(_templateObject7 || (_templateObject7 = _taggedTemplateLiteral(["\ndisplay: flex;\nflex-flow: column nowrap;\n/* border: 1px dashed black; */\nwidth: 100%;\npadding: 5%;\n\n"])));
 var ProjectDetailsContainer = _styledComponents.default.div(_templateObject8 || (_templateObject8 = _taggedTemplateLiteral(["\ndisplay: flex;\nflex-flow: column nowrap;\nalign-items: center;\n/* border: 2px solid black; */\npadding-top:5%;\nheight: 100%;\n"])));
 var appearText = function appearText() {
   return (0, _styledComponents.keyframes)(_templateObject9 || (_templateObject9 = _taggedTemplateLiteral(["\n0%{\n  color: #FFF;\n}\n100%{\n  color: #333;\n}\n"])));
@@ -32377,10 +32378,10 @@ var Fullprint = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 10, "%) scale(0.25)")
+      transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.25)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-10vh;\nright:-18vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-180vh;\ntransform-origin: right center\nright:12vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 /*
 const Home = styled.img.attrs({
   style: ({ scroll }) => ({
@@ -32401,18 +32402,18 @@ var Fullprint1 = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.175)")
+      transform: "translate(0px,-".concat(scroll * 9, "%) scale(0.175)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-30vh;\nright:-12vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Humayun = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.25)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:0vh;\nright:5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-140vh;\ntransform-origin: right center\nright:40vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 
 /*
 const Drawing = styled.img.attrs({
@@ -32434,18 +32435,18 @@ var Terrain = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 23, "%) scale(0.2)")
     };
   }
-})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-50vh;\nright:-25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-250vh;\ntransform-origin: right center\nright:25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Dargah = _styledComponents.default.img.attrs({
   style: function style(_ref5) {
     var scroll = _ref5.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 6, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 16, "%) scale(0.2)")
     };
   }
-})(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-30vh;\nright:-15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-170vh;\ntransform-origin: right center\nright:15vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var OldDelhiDiorama = /*#__PURE__*/function (_Component) {
   _inherits(OldDelhiDiorama, _Component);
   var _super = _createSuper(OldDelhiDiorama);
@@ -32536,26 +32537,26 @@ var Logo = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 7, "%) scale(0.225)")
+      transform: "translate(0px,-".concat(scroll * 26, "%) scale(0.225)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-10vh;\nright:-25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-180vh;\ntransform-origin: right center\nright:5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Prototype_des = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3, "%) scale(0.4)")
+      transform: "translate(0px,-".concat(scroll * 18, "%) scale(0.4)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-35vh;\nright:25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-190vh;\ntransform-origin: right center\nright:45vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Design = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.35)")
+      transform: "translate(0px,-".concat(scroll * 8, "%) scale(0.35)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-60vh;\nright:-5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-90vh;\ntransform-origin: right center\nright:18vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
 var CRISP = /*#__PURE__*/function (_Component) {
   _inherits(CRISP, _Component);
   var _super = _createSuper(CRISP);
@@ -32637,18 +32638,18 @@ var SPM_Design = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 8, "%) scale(0.3)")
+      transform: "translate(0px,-".concat(scroll * 20, "%) scale(0.3)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-60vh;\nright:-10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-190vh;\ntransform-origin: right center\nright:10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
 var Spm_Proto = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 14, "%) scale(0.3)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:0vh;\nright:25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:55vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var SPM = /*#__PURE__*/function (_Component) {
   _inherits(SPM, _Component);
   var _super = _createSuper(SPM);
@@ -32728,34 +32729,34 @@ var Outcomes = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 2, "%) scale(0.55)")
+      transform: "translate(0px,-".concat(scroll * 12, "%) scale(0.5)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:5vh;\nright:2vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
 var Modes = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.3)")
+      transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.3)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-10vh;\nright:15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-180vh;\ntransform-origin: right center\nright:45vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var Mesh = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 6, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 17, "%) scale(0.25)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:10vh;\nright:10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.2px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-120vh;\ntransform-origin: right center\nright:40vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.2px);\n"])));
 var Tube = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 8, "%) scale(0.45)")
+      transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.45)")
     };
   }
-})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-80vh;\nright:-5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-220vh;\ntransform-origin: right center\nright:-5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var GD = /*#__PURE__*/function (_Component) {
   _inherits(GD, _Component);
   var _super = _createSuper(GD);
@@ -32841,18 +32842,18 @@ var Skull = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.45)")
+      transform: "translate(0px,-".concat(scroll * 18, "%) scale(0.5)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:10vh;\nright:15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-120vh;\ntransform-origin: right center\nright:35vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Surgery = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 11, "%) scale(0.3)")
+      transform: "translate(0px,-".concat(scroll * 26, "%) scale(0.3)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-90vh;\nright:-5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1.5px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-190vh;\ntransform-origin: right center\nright:15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1.5px);\n"])));
 var Craniofacial = /*#__PURE__*/function (_Component) {
   _inherits(Craniofacial, _Component);
   var _super = _createSuper(Craniofacial);
@@ -32931,26 +32932,26 @@ var MandiblePlate = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 12, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 26, "%) scale(0.25)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-40vh;\nright:10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-170vh;\ntransform-origin: right center\nright:45vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var MaxiAnalysis = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.5)")
+      transform: "translate(0px,-".concat(scroll * 14, "%) scale(0.5)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-20vh;\nright:2vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-120vh;\ntransform-origin: right center\nright:12vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var MaxiStudySetup = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 7, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 17, "%) scale(0.2)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-60vh;\nright:3vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-160vh;\ntransform-origin: right center\nright:33vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var Maxillofacial = /*#__PURE__*/function (_Component) {
   _inherits(Maxillofacial, _Component);
   var _super = _createSuper(Maxillofacial);
@@ -33032,18 +33033,18 @@ var Prosthetic_Design = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 10, "%) scale(0.55)")
+      transform: "translate(0px,-".concat(scroll * 20, "%) scale(0.75)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-30vh;\nright:20vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:20vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Scan = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.5)")
+      transform: "translate(0px,-".concat(scroll * 14, "%) scale(0.5)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-40vh;\nright:10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1.5px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-140vh;\ntransform-origin: right center\nright:10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1.5px);\n"])));
 var Prosthetic = /*#__PURE__*/function (_Component) {
   _inherits(Prosthetic, _Component);
   var _super = _createSuper(Prosthetic);
@@ -33123,34 +33124,34 @@ var Concept = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.25)")
+      transform: "translate(0px,-".concat(scroll * 29, "%) scale(0.25)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-10vh;\nright:-12vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-125vh;\ntransform-origin: right center\nright:0vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Experiments = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3, "%) scale(0.225)")
+      transform: "translate(0px,-".concat(scroll * 16, "%) scale(0.27)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-50vh;\nright:5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(2px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-150vh;\ntransform-origin: right center\nright:25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(2px);\n"])));
 var SeatAngle = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 8, "%) scale(0.3)")
+      transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.3)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-10vh;\nright:25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: right center\nright:55vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1px);\n"])));
 var SetupImage = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 5, "%) scale(0.35)")
+      transform: "translate(0px,-".concat(scroll * 19, "%) scale(0.45)")
     };
   }
-})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-15vh;\nright:-2vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-125vh;\ntransform-origin: right center\nright:5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var AutoDriving = /*#__PURE__*/function (_Component) {
   _inherits(AutoDriving, _Component);
   var _super = _createSuper(AutoDriving);
@@ -33238,34 +33239,34 @@ var GKDesign = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 7, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.2)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-40vh;\nright:-17vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-150vh;\ntransform-origin: right center\nright:13vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var ChassisAnalysis = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 12, "%) scale(0.45)")
+      transform: "translate(0px,-".concat(scroll * 18, "%) scale(0.5)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-50vh;\nright:20vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-150vh;\ntransform-origin: right center\nright:45vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var Chassis = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 8, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 20, "%) scale(0.2)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:10vh;\nright:-15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1px);\n"])));
 var GK = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 16, "%) scale(0.23)")
     };
   }
-})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-50vh;\nright:-4vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-165vh;\ntransform-origin: right center\nright:30vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var GoKart = /*#__PURE__*/function (_Component) {
   _inherits(GoKart, _Component);
   var _super = _createSuper(GoKart);
@@ -33354,42 +33355,42 @@ var PlaneDrawing = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3, "%) scale(0.25)")
+      transform: "translate(0px,-".concat(scroll * 13, "%) scale(0.35)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-50vh;\nright:-10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1.5px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-190vh;\ntransform-origin: right center\nright:6vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1.5px);\n"])));
 var Planes = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 6, "%) scale(0.15)")
+      transform: "translate(0px,-".concat(scroll * 16, "%) scale(0.3)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-25vh;\nright:-10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-178vh;\ntransform-origin: right center\nright:5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var FinalPlane = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 10, "%) scale(0.1)")
+      transform: "translate(0px,-".concat(scroll * 10, "%) scale(0.2)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-15vh;\nright:12vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-135vh;\ntransform-origin: right center\nright:45vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var PlaneAnalysis = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 8, "%) scale(0.45)")
+      transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.5)")
     };
   }
-})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-25vh;\nright:0vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-175vh;\ntransform-origin: right center\nright:0vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var Flying = _styledComponents.default.img.attrs({
   style: function style(_ref5) {
     var scroll = _ref5.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 12, "%) scale(0.3)")
+      transform: "translate(0px,-".concat(scroll * 20, "%) scale(0.4)")
     };
   }
-})(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:0vh;\nright:20vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-140vh;\ntransform-origin: right center\nright:55vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var AeroDesign = /*#__PURE__*/function (_Component) {
   _inherits(AeroDesign, _Component);
   var _super = _createSuper(AeroDesign);
@@ -33484,8 +33485,8 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nwidth:100%;\nheight:1800vh; /*this controls the total height, uff*/\nmargin-bottom:30vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
-var ImageBox = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n/* outline: 0.1px dashed green; */\nmargin-top:30vh;\nheight: 100vh;\nposition: relative;\n"])));
+var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/*border: 2px dashed green;*/\nwidth:100%;\nheight:1450vh; /*this controls the total height, uff*/\nmargin-bottom:30vh;\ndisplay: flex;\nflex-flow: column nowrap;\n\n"])));
+var ImageBox = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n/*outline: 0.1px dashed green; */\nmargin-top:30vh;\nheight: 100vh;\nposition: relative;\n"])));
 var ImageContent = /*#__PURE__*/function (_Component) {
   _inherits(ImageContent, _Component);
   var _super = _createSuper(ImageContent);
@@ -33665,7 +33666,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-var Container = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    display: flex;\n    flex-flow: row nowrap;\n    /* border: 1px dashed red; */\n"])));
+var Container = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    display: flex;\n    flex-flow: row nowrap;\n    /*border: 2px dashed red;*/\n    width: 100%;\n"])));
 var Work = /*#__PURE__*/function (_Component) {
   _inherits(Work, _Component);
   var _super = _createSuper(Work);
@@ -33852,7 +33853,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    height: 200vh;\n    width:100%;\n    /* border: 1px solid blue; */\n    display: flex;\n    flex-flow: column wrap;\n    justify-content: center;\n    align-content: flex-start;\n    @media ", " {\n    padding-left:60px;\n    }\n    @media ", " {\n    padding-left:60px;\n    }\n    @media ", " {\n    padding-left:60px;\n    }\n    @media ", " {\n    padding-left:90px;\n    }\n    @media ", " {\n    padding-left:120px;\n    }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
+var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    margin-top:20vh;\n    height: 200vh;\n    width:100%;\n    /*border: 1px solid blue; */\n    display: flex;\n    flex-flow: column wrap;\n    justify-content: normal;\n    //align-content: flex-start;\n    align-items: center;\n    padding: 2em;\n    @media ", " {\n    padding-left:60px;\n    }\n    @media ", " {\n    padding-left:60px;\n    }\n    @media ", " {\n    padding-left:60px;\n    }\n    @media ", " {\n    padding-left:90px;\n    }\n    @media ", " {\n    padding-left:120px;\n    }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var SkillsTitle = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'AvenirHeavy';\n  color: #000;\n  @media ", " {\n    font-size: 40px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  @media ", " {\n    font-size: 60px;\n  }\n  @media ", " {\n    font-size: 90px;\n  }\n  @media ", " {\n    font-size: 95px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var SkillsList = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  font-family: 'AvenirRoman';\n  z-index: 1;\n  \n  @media ", " {\n    margin-top: 30px;\n    font-size: 20px;\n  }\n  @media ", " {\n    margin-top: 35px;\n    font-size: 23px;\n  }\n  @media ", " {\n    margin-top: 35px;\n    font-size: 25px;\n  }\n  @media ", " {\n    margin-top: 45px;\n    font-size: 35px;\n  }\n  @media ", " {\n    margin-top: 60px;\n    font-size: 45px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var Skills = /*#__PURE__*/function (_Component) {
@@ -33969,7 +33970,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); } //import twitterImg from '../../../Assets/Images/Social/twitter.svg';
 //import dribbbleImg from '../../../Assets/Images/Social/dribbble.svg';
-var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    margin-top:20vh;\n    height: 100vh;\n    width:100%;\n    /* border: 1px solid blue; */\n    display: flex;\n    flex-flow: column wrap;\n    justify-content: center;\n    align-content: flex-start;\n    @media ", " {\n    padding-left:60px;\n    }\n    @media ", " {\n    padding-left:60px;\n    }\n    @media ", " {\n    padding-left:60px;\n    }\n    @media ", " {\n    padding-left:90px;\n    margin-bottom:90px;\n    }\n    @media ", " {\n    padding-left:120px;\n    margin-bottom:120px;\n    }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
+var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    margin-top:20vh;\n    height: 100vh;\n    width:100%;\n    /*border: 1px solid blue; */\n    display: flex;\n    flex-flow: column wrap;\n    justify-content: normal;\n    //align-content: flex-start;\n    align-items: center;\n    padding: 2em;\n    @media ", " {\n    //padding-left:60px;\n    }\n    @media ", " {\n    //padding-left:60px;\n    }\n    @media ", " {\n    //padding-left:60px;\n    }\n    @media ", " {\n    //padding-left:90px;\n    margin-bottom:90px;\n    }\n    @media ", " {\n    //padding-left:120px;\n    margin-bottom:120px;\n    }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var ContactTitle = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'AvenirHeavy';\n  color: #000;\n  @media ", " {\n    font-size: 40px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  @media ", " {\n    font-size: 60px;\n  }\n  @media ", " {\n    font-size: 90px;\n  }\n  @media ", " {\n    font-size: 95px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var SocialMediaIcons = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  /* border: 1px solid black; */\n  z-index: 1;\n  display: grid;\n  grid-template: 80px 80px 80px / 1fr 1fr;\n  @media ", " {\n    margin-top: 60px;\n    grid-gap: 40px;\n  }\n  @media ", " {\n    margin-top: 60px;\n    grid-gap: 60px;\n  }\n  @media ", " {\n    margin-top: 60px;\n    grid-gap: 70px;\n  }\n  @media ", " {\n    margin-top: 80px;\n    grid-gap: 170px;\n  }\n  @media ", " {\n    margin-top: 120px;\n    grid-gap: 200px;\n  }\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var Contact = /*#__PURE__*/function (_Component) {
@@ -34158,7 +34159,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56056" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57556" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

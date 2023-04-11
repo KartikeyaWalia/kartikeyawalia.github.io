@@ -7,12 +7,13 @@ import surgery from '../../../../Assets/Images/Craniofacial/surgery.png';
 
 const Skull = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 18}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:10vh;
-right:15vw; 
+bottom:-120vh;
+transform-origin: right center
+right:35vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -21,12 +22,13 @@ height: 80vh;
 
 const Surgery = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 11}%) scale(0.3)`,
+    transform: `translate(0px,-${(scroll) * 26}%) scale(0.3)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-90vh;
-right:-5vw; 
+bottom:-190vh;
+transform-origin: right center
+right:15vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

@@ -9,12 +9,13 @@ import gk_design from '../../../../Assets/Images/GoKart/gk_design.png';
 
 const GKDesign = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 7}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) * 22}%) scale(0.2)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-40vh;
-right:-17vw; 
+bottom:-150vh;
+transform-origin: right center
+right:13vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -23,12 +24,13 @@ filter: blur(0.0px);
 
 const ChassisAnalysis = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 12}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 18}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-50vh;
-right:20vw; 
+bottom:-150vh;
+transform-origin: right center
+right:45vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -37,12 +39,13 @@ filter: blur(0.0px);
 
 const Chassis = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) *8}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) *20}%) scale(0.2)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:10vh;
-right:-15vw; 
+bottom:-130vh;
+transform-origin: right center
+right:15vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -51,12 +54,13 @@ filter: blur(1px);
 
 const GK = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) * 16}%) scale(0.23)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-50vh;
-right:-4vw; 
+bottom:-165vh;
+transform-origin: right center
+right:30vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

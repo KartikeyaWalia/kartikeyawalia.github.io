@@ -7,7 +7,8 @@ import ImageContent from './ImageContent';
 const Container = styled.div`
     display: flex;
     flex-flow: row nowrap;
-    /* border: 1px dashed red; */
+    /*border: 2px dashed red;*/
+    width: 100%;
 `;
 
 class Work extends Component {

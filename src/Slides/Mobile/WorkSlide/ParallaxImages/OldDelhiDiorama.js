@@ -10,12 +10,13 @@ import terrain  from '../../../../Assets/Images/OldDelhiDiorama/terrain.png';
 
 const Fullprint = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 10}%) scale(0.25)`,
+    transform: `translate(0px,-${(scroll) * 22}%) scale(0.25)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-10vh;
-right:-18vw; 
+bottom:-180vh;
+transform-origin: right center
+right:12vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -39,12 +40,13 @@ filter: blur(0.6px);
 
 const Fullprint1 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4}%) scale(0.175)`,
+    transform: `translate(0px,-${(scroll) * 9}%) scale(0.175)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-30vh;
-right:-12vw; 
+bottom:-130vh;
+transform-origin: right center
+right:15vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -53,12 +55,13 @@ height: 80vh;
 
 const Humayun = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.25)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:0vh;
-right:5vw; 
+bottom:-140vh;
+transform-origin: right center
+right:40vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -83,12 +86,13 @@ filter: blur(0px);
 
 const Terrain = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) * 23}%) scale(0.2)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-50vh;
-right:-25vw; 
+bottom:-250vh;
+transform-origin: right center
+right:25vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -97,12 +101,13 @@ height: 80vh;
 
 const Dargah = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 6}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) * 16}%) scale(0.2)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-30vh;
-right:-15vw; 
+bottom:-170vh;
+transform-origin: right center
+right:15vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

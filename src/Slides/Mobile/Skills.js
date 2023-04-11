@@ -3,13 +3,16 @@ import styled from 'styled-components';
 import device from '../../Assets/Responsive/breakpoints';
 
 const Container = styled.section`
+    margin-top:20vh;
     height: 200vh;
     width:100%;
-    /* border: 1px solid blue; */
+    /*border: 1px solid blue; */
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-content: flex-start;
+    justify-content: normal;
+    //align-content: flex-start;
+    align-items: center;
+    padding: 2em;
     @media ${device.mobileS} {
     padding-left:60px;
     }

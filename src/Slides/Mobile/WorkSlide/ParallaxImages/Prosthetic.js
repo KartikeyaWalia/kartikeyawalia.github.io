@@ -8,11 +8,12 @@ import prosthetic_design from '../../../../Assets/Images/Prosthetic/prosthetic_d
 
 const Prosthetic_Design = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 10}%) scale(0.55)`,
+    transform: `translate(0px,-${(scroll) * 20}%) scale(0.75)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-30vh;
+bottom:-130vh;
+transform-origin: right center
 right:20vw; 
 position: absolute;
 /*border: 1px dashed red;*/
@@ -22,11 +23,12 @@ height: 80vh;
 
 const Scan = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 14}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-40vh;
+bottom:-140vh;
+transform-origin: right center
 right:10vw; 
 position: absolute;
 /*border: 1px dashed red;*/

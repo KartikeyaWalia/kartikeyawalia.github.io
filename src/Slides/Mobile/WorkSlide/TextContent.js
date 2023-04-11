@@ -9,9 +9,10 @@ top:0;
 left:0;
 display: flex;
 flex-flow: column nowrap;
-/* border: 1px dashed black; */
+border: 1px dashed black; 
 height:100vh;
 width: 100%;
+padding-block: 40% 40%;
 `;
 
 const ProjectName = styled.div`
@@ -37,6 +38,7 @@ const ProjectName = styled.div`
 const ProjectDesc = styled.div`
   padding-top:2%;
   font-family: 'AvenirBook';
+  text-align: justify;
   @media ${device.laptopL} {
     font-size: 30px;
   }
@@ -88,6 +90,7 @@ flex-flow: column nowrap;
 /* border: 1px dashed black; */
 width: 100%;
 padding: 5%;
+
 `;
 
 

@@ -15,26 +15,28 @@ const Container = styled.section`
     margin-top:20vh;
     height: 100vh;
     width:100%;
-    /* border: 1px solid blue; */
+    /*border: 1px solid blue; */
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-content: flex-start;
+    justify-content: normal;
+    //align-content: flex-start;
+    align-items: center;
+    padding: 2em;
     @media ${device.mobileS} {
-    padding-left:60px;
+    //padding-left:60px;
     }
     @media ${device.mobileM} {
-    padding-left:60px;
+    //padding-left:60px;
     }
     @media ${device.mobileL} {
-    padding-left:60px;
+    //padding-left:60px;
     }
     @media ${device.tablet} {
-    padding-left:90px;
+    //padding-left:90px;
     margin-bottom:90px;
     }
     @media ${device.laptop} {
-    padding-left:120px;
+    //padding-left:120px;
     margin-bottom:120px;
     }
 `;

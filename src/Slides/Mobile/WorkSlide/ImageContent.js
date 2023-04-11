@@ -14,16 +14,17 @@ import GoKart from './ParallaxImages/GoKart';
 import AeroDesign from './ParallaxImages/AeroDesign';
 
 const ImageContainer = styled.div`
-/* border: 0.1px dashed black; */
+/*border: 2px dashed green;*/
 width:100%;
-height:1800vh; /*this controls the total height, uff*/
+height:1450vh; /*this controls the total height, uff*/
 margin-bottom:30vh;
 display: flex;
 flex-flow: column nowrap;
+
 `;
 
 const ImageBox = styled.div`
-/* outline: 0.1px dashed green; */
+/*outline: 0.1px dashed green; */
 margin-top:30vh;
 height: 100vh;
 position: relative;

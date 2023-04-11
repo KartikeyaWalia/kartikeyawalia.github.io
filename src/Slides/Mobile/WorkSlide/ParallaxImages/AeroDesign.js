@@ -9,12 +9,13 @@ import flying from '../../../../Assets/Images/AeroDesign/flyhigh.png';
 
 const PlaneDrawing = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3}%) scale(0.25)`,
+    transform: `translate(0px,-${(scroll) * 13}%) scale(0.35)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-50vh;
-right:-10vw; 
+bottom:-190vh;
+transform-origin: right center
+right:6vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -22,12 +23,13 @@ filter: blur(1.5px);
 `;
 const Planes = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 6}%) scale(0.15)`,
+    transform: `translate(0px,-${(scroll) * 16}%) scale(0.3)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-25vh;
-right:-10vw; 
+bottom:-178vh;
+transform-origin: right center
+right:5vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -36,12 +38,13 @@ filter: blur(0.0px);
 
 const FinalPlane = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 10}%) scale(0.1)`,
+    transform: `translate(0px,-${(scroll) * 10}%) scale(0.2)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-15vh;
-right:12vw; 
+bottom:-135vh;
+transform-origin: right center
+right:45vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -50,11 +53,12 @@ filter: blur(0.0px);
 
 const PlaneAnalysis = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 8}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 22}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-25vh;
+bottom:-175vh;
+transform-origin: right center
 right:0vw; 
 position: absolute;
 /*border: 1px dashed red;*/
@@ -64,12 +68,13 @@ filter: blur(0.0px);
 
 const Flying = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 12}%) scale(0.3)`,
+    transform: `translate(0px,-${(scroll) * 20}%) scale(0.4)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:0vh;
-right:20vw; 
+bottom:-140vh;
+transform-origin: right center
+right:55vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

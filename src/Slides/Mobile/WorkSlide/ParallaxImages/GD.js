@@ -8,12 +8,13 @@ import tube from '../../../../Assets/Images/GD/tube.png';
 
 const Outcomes = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.55)`,
+    transform: `translate(0px,-${(scroll) * 12}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:5vh;
-right:2vw; 
+bottom:-130vh;
+transform-origin: right center
+right:5vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -22,12 +23,13 @@ filter: blur(2px);
 
 const Modes = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4}%) scale(0.3)`,
+    transform: `translate(0px,-${(scroll) * 22}%) scale(0.3)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-10vh;
-right:15vw; 
+bottom:-180vh;
+transform-origin: right center
+right:45vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -36,12 +38,13 @@ filter: blur(0.0px);
 
 const Mesh = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 6}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) * 17}%) scale(0.25)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:10vh;
-right:10vw; 
+bottom:-120vh;
+transform-origin: right center
+right:40vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -50,11 +53,12 @@ filter: blur(0.2px);
 
 const Tube = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 8}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 22}%) scale(0.45)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-80vh;
+bottom:-220vh;
+transform-origin: right center
 right:-5vw; 
 position: absolute;
 /*border: 1px dashed red;*/

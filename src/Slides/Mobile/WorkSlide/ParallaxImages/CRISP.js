@@ -8,12 +8,13 @@ import prototype_des from '../../../../Assets/Images/CRISP/prototype.png';
 
 const Logo = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 7}%) scale(0.225)`,
+    transform: `translate(0px,-${(scroll) * 26}%) scale(0.225)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-10vh;
-right:-25vw; 
+bottom:-180vh;
+transform-origin: right center
+right:5vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -22,12 +23,13 @@ height: 80vh;
 
 const Prototype_des = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3}%) scale(0.4)`,
+    transform: `translate(0px,-${(scroll) * 18}%) scale(0.4)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-35vh;
-right:25vw; 
+bottom:-190vh;
+transform-origin: right center
+right:45vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -36,12 +38,13 @@ height: 80vh;
 
 const Design = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 5}%) scale(0.35)`,
+    transform: `translate(0px,-${(scroll) * 8}%) scale(0.35)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-60vh;
-right:-5vw; 
+bottom:-90vh;
+transform-origin: right center
+right:18vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

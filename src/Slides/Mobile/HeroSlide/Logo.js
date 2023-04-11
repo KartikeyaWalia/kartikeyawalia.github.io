@@ -6,13 +6,14 @@ const LogoContainer = styled.div`
   position: absolute;
   top: 20px;
   //left: 30px;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
+  align-items: center;
 `;
 
 const LogoImage = styled.img`
-  width: 200%;
-  height: 200%;
+  width: 100%;
+  height: 100%;
 `;
 
 const Logo = () => {

@@ -8,12 +8,13 @@ import maxi_analysis from '../../../../Assets/Images/Maxillofacial/maxi_analysis
 
 const MandiblePlate = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) *12}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) *26}%) scale(0.25)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-40vh;
-right:10vw; 
+bottom:-170vh;
+transform-origin: right center
+right:45vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -22,12 +23,13 @@ filter: blur(0.0px);
 
 const MaxiAnalysis = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 14}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-20vh;
-right:2vw; 
+bottom:-120vh;
+transform-origin: right center
+right:12vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -36,12 +38,13 @@ height: 80vh;
 
 const MaxiStudySetup = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) *7}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) *17}%) scale(0.2)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-60vh;
-right:3vw; 
+bottom:-160vh;
+transform-origin: right center
+right:33vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
