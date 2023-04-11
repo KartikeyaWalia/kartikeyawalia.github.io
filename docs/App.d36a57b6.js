@@ -32241,7 +32241,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-var TextContainer = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\nposition: fixed;\ntop:0;\nleft:0;\ndisplay: flex;\nflex-flow: column nowrap;\nborder: 1px dashed black; \nheight:100vh;\nwidth: 100%;\npadding-block: 40% 40%;\n"])));
+var TextContainer = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\nposition: fixed;\ntop:0;\nleft:0;\ndisplay: flex;\nflex-flow: column nowrap;\n/*border: 1px dashed black;*/ \nheight:100vh;\nwidth: 100%;\npadding-block: 40% 40%;\npadding-right: 1.5em;\n"])));
 var ProjectName = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'AvenirHeavy';\n  @media ", " {\n    font-size: 40px;\n  }\n  @media ", " {\n    font-size: 45px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  @media ", " {\n    font-size: 60px;\n  }\n  @media ", " {\n    font-size: 90px;\n  }\n  /* border: 1px dashed black; */\n"])), _breakpoints.default.mobileS, _breakpoints.default.mobileM, _breakpoints.default.mobileL, _breakpoints.default.tablet, _breakpoints.default.laptop);
 var ProjectDesc = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  padding-top:2%;\n  font-family: 'AvenirBook';\n  text-align: justify;\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  /* border: 1px dashed black; */\n"])), _breakpoints.default.laptopL, _breakpoints.default.desktop);
 var MyRole = _styledComponents.default.div(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n  padding-top:5%;\n  font-family: 'AvenirMedium';\n  @media ", " {\n    font-size: 30px;\n  }\n  @media ", " {\n    font-size: 50px;\n  }\n  /* border: 1px dashed black; */\n"])), _breakpoints.default.laptopL, _breakpoints.default.desktop);
@@ -32381,7 +32381,7 @@ var Fullprint = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.25)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-180vh;\ntransform-origin: right center\nright:12vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-190vh;\ntransform-origin: right center\nright:5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 /*
 const Home = styled.img.attrs({
   style: ({ scroll }) => ({
@@ -32402,10 +32402,10 @@ var Fullprint1 = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 9, "%) scale(0.175)")
+      transform: "translate(0px,-".concat(scroll * 16, "%) scale(0.175)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-180vh;\ntransform-origin: right center\nright:2vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Humayun = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
@@ -32413,7 +32413,7 @@ var Humayun = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 15, "%) scale(0.25)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-140vh;\ntransform-origin: right center\nright:40vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-160vh;\ntransform-origin: right center\nright:40vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 
 /*
 const Drawing = styled.img.attrs({
@@ -32435,18 +32435,18 @@ var Terrain = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 23, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 23, "%) scale(0.24)")
     };
   }
-})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-250vh;\ntransform-origin: right center\nright:25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-270vh;\ntransform-origin: right center\nright:5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Dargah = _styledComponents.default.img.attrs({
   style: function style(_ref5) {
     var scroll = _ref5.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 16, "%) scale(0.2)")
+      transform: "translate(0px,-".concat(scroll * 21, "%) scale(0.25)")
     };
   }
-})(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-170vh;\ntransform-origin: right center\nright:15vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-235vh;\ntransform-origin: right center\nright:25vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var OldDelhiDiorama = /*#__PURE__*/function (_Component) {
   _inherits(OldDelhiDiorama, _Component);
   var _super = _createSuper(OldDelhiDiorama);
@@ -32553,10 +32553,10 @@ var Design = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 8, "%) scale(0.35)")
+      transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.35)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-90vh;\ntransform-origin: right center\nright:18vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-190vh;\ntransform-origin: right center\nright:10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
 var CRISP = /*#__PURE__*/function (_Component) {
   _inherits(CRISP, _Component);
   var _super = _createSuper(CRISP);
@@ -32641,7 +32641,7 @@ var SPM_Design = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 20, "%) scale(0.3)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-190vh;\ntransform-origin: right center\nright:10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-190vh;\ntransform-origin: right center\nright:5vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(2px);\n"])));
 var Spm_Proto = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
@@ -32649,7 +32649,7 @@ var Spm_Proto = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 14, "%) scale(0.3)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:55vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:45vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var SPM = /*#__PURE__*/function (_Component) {
   _inherits(SPM, _Component);
   var _super = _createSuper(SPM);
@@ -32845,15 +32845,15 @@ var Skull = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 18, "%) scale(0.5)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-120vh;\ntransform-origin: right center\nright:35vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-150vh;\ntransform-origin: right center\nright:25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Surgery = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 26, "%) scale(0.3)")
+      transform: "translate(0px,-".concat(scroll * 27, "%) scale(0.3)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-190vh;\ntransform-origin: right center\nright:15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1.5px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-235vh;\ntransform-origin: right center\nright:10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1.5px);\n"])));
 var Craniofacial = /*#__PURE__*/function (_Component) {
   _inherits(Craniofacial, _Component);
   var _super = _createSuper(Craniofacial);
@@ -33127,7 +33127,7 @@ var Concept = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 29, "%) scale(0.25)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-125vh;\ntransform-origin: right center\nright:0vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-125vh;\ntransform-origin: right center\nright:2vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var Experiments = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
@@ -33143,7 +33143,7 @@ var SeatAngle = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.3)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: right center\nright:55vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\ntransform-origin: right center\nright:59vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1px);\n"])));
 var SetupImage = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
@@ -33242,7 +33242,7 @@ var GKDesign = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.2)")
     };
   }
-})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-150vh;\ntransform-origin: right center\nright:13vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-150vh;\ntransform-origin: right center\nright:8vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var ChassisAnalysis = _styledComponents.default.img.attrs({
   style: function style(_ref2) {
     var scroll = _ref2.scroll;
@@ -33250,7 +33250,7 @@ var ChassisAnalysis = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 18, "%) scale(0.5)")
     };
   }
-})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-150vh;\ntransform-origin: right center\nright:45vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-150vh;\ntransform-origin: right center\nright:40vw;  \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var Chassis = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
@@ -33258,7 +33258,7 @@ var Chassis = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 20, "%) scale(0.2)")
     };
   }
-})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:15vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1px);\n"])));
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-130vh;\ntransform-origin: right center\nright:10vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(1px);\n"])));
 var GK = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
@@ -33266,7 +33266,7 @@ var GK = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 16, "%) scale(0.23)")
     };
   }
-})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-165vh;\ntransform-origin: right center\nright:30vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-165vh;\ntransform-origin: right center\nright:25vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var GoKart = /*#__PURE__*/function (_Component) {
   _inherits(GoKart, _Component);
   var _super = _createSuper(GoKart);
@@ -33382,7 +33382,7 @@ var PlaneAnalysis = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 22, "%) scale(0.5)")
     };
   }
-})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-175vh;\ntransform-origin: right center\nright:0vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-175vh;\ntransform-origin: right center\nright:2vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\nfilter: blur(0.0px);\n"])));
 var Flying = _styledComponents.default.img.attrs({
   style: function style(_ref5) {
     var scroll = _ref5.scroll;
@@ -33390,7 +33390,7 @@ var Flying = _styledComponents.default.img.attrs({
       transform: "translate(0px,-".concat(scroll * 20, "%) scale(0.4)")
     };
   }
-})(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-140vh;\ntransform-origin: right center\nright:55vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
+})(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-140vh;\ntransform-origin: right center\nright:60vw; \nposition: absolute;\n/*border: 1px dashed red;*/\nheight: 80vh;\n//filter: blur(0.0px);\n"])));
 var AeroDesign = /*#__PURE__*/function (_Component) {
   _inherits(AeroDesign, _Component);
   var _super = _createSuper(AeroDesign);
@@ -34159,7 +34159,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57556" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53226" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

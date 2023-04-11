@@ -9,10 +9,11 @@ top:0;
 left:0;
 display: flex;
 flex-flow: column nowrap;
-border: 1px dashed black; 
+/*border: 1px dashed black;*/ 
 height:100vh;
 width: 100%;
 padding-block: 40% 40%;
+padding-right: 1.5em;
 `;
 
 const ProjectName = styled.div`

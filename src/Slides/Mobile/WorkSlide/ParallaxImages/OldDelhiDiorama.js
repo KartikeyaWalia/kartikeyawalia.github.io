@@ -14,9 +14,9 @@ const Fullprint = styled.img.attrs({
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-180vh;
+bottom:-190vh;
 transform-origin: right center
-right:12vw; 
+right:5vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -40,13 +40,13 @@ filter: blur(0.6px);
 
 const Fullprint1 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 9}%) scale(0.175)`,
+    transform: `translate(0px,-${(scroll) * 16}%) scale(0.175)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-130vh;
+bottom:-180vh;
 transform-origin: right center
-right:15vw; 
+right:2vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -59,7 +59,7 @@ const Humayun = styled.img.attrs({
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-140vh;
+bottom:-160vh;
 transform-origin: right center
 right:40vw; 
 position: absolute;
@@ -86,13 +86,13 @@ filter: blur(0px);
 
 const Terrain = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 23}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) * 23}%) scale(0.24)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-250vh;
+bottom:-270vh;
 transform-origin: right center
-right:25vw; 
+right:5vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -101,13 +101,13 @@ height: 80vh;
 
 const Dargah = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 16}%) scale(0.2)`,
+    transform: `translate(0px,-${(scroll) * 21}%) scale(0.25)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-170vh;
+bottom:-235vh;
 transform-origin: right center
-right:15vw;  
+right:25vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

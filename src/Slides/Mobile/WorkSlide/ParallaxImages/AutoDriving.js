@@ -14,7 +14,7 @@ const Concept = styled.img.attrs({
 transition: transform 0.2s ease-out;
 bottom:-125vh;
 transform-origin: right center
-right:0vw;  
+right:2vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -44,7 +44,7 @@ const SeatAngle = styled.img.attrs({
 transition: transform 0.2s ease-out;
 bottom:-110vh;
 transform-origin: right center
-right:55vw;  
+right:59vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

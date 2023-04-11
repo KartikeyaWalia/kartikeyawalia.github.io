@@ -11,9 +11,9 @@ const Skull = styled.img.attrs({
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-120vh;
+bottom:-150vh;
 transform-origin: right center
-right:35vw; 
+right:25vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -22,13 +22,13 @@ height: 80vh;
 
 const Surgery = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 26}%) scale(0.3)`,
+    transform: `translate(0px,-${(scroll) * 27}%) scale(0.3)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-190vh;
+bottom:-235vh;
 transform-origin: right center
-right:15vw; 
+right:10vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

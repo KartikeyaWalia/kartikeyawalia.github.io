@@ -38,13 +38,13 @@ height: 80vh;
 
 const Design = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 8}%) scale(0.35)`,
+    transform: `translate(0px,-${(scroll) * 22}%) scale(0.35)`,
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-90vh;
+bottom:-190vh;
 transform-origin: right center
-right:18vw; 
+right:10vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;

@@ -15,7 +15,7 @@ const GKDesign = styled.img.attrs({
 transition: transform 0.2s ease-out;
 bottom:-150vh;
 transform-origin: right center
-right:13vw; 
+right:8vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -30,7 +30,7 @@ const ChassisAnalysis = styled.img.attrs({
 transition: transform 0.2s ease-out;
 bottom:-150vh;
 transform-origin: right center
-right:45vw;  
+right:40vw;  
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -45,7 +45,7 @@ const Chassis = styled.img.attrs({
 transition: transform 0.2s ease-out;
 bottom:-130vh;
 transform-origin: right center
-right:15vw; 
+right:10vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
@@ -60,7 +60,7 @@ const GK = styled.img.attrs({
 transition: transform 0.2s ease-out;
 bottom:-165vh;
 transform-origin: right center
-right:30vw; 
+right:25vw; 
 position: absolute;
 /*border: 1px dashed red;*/
 height: 80vh;
