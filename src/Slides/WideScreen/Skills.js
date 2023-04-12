@@ -117,7 +117,8 @@ class Skills extends Component {
             <br />
             3D Scanning
             <br />
-            Unity
+            Surface and Organic Modelling
+            <br />
             <br />
             MATLAB and Simulink  
             <br />
@@ -144,6 +145,7 @@ class Skills extends Component {
             ⚫⚫⚫⚫⚪
             <br />
             ⚫⚫⚪⚪⚪
+            <br />
             <br />
             ⚫⚫⚫⚫⚪
             <br />

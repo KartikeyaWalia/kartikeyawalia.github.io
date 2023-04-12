@@ -95,6 +95,7 @@ flex-flow: column nowrap;
 width: 100%;
 padding: 5%;
 padding-left:10%;
+text-align: justify;
 `;
 
 

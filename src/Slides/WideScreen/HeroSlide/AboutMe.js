@@ -38,6 +38,7 @@ const AboutMeDescription = styled.div`
   text-align: left;
   margin-left: 30%;
   margin-right: 5%;
+  text-align: justify;
   @media ${device.laptop} {
     transform: translateY(90%);
     font-size: 30px;
